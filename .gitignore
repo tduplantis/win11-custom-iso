@@ -1,0 +1,17 @@
+# Per-machine data: inventories and manifests describe a real PC, keep them local
+profiles/*
+!profiles/example/
+
+# Large or downloaded artifacts
+*.iso
+*.wim
+*.esd
+*.cab
+*.msu
+build/
+downloads/
+mount/
+
+# Never commit credentials
+secrets/
+*.secret.*
